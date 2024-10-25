@@ -9,7 +9,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cli-color": "^2.0.4",
-    "figlet": "^1.7.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "figlet": "^1.7.0",
+    "joi": "^17.13.3",
+    "joy": "^0.1.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg-promise": "^11.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.0",
+    "process": "^0.11.10"
   }
 }
